@@ -1,4 +1,5 @@
 sidebar:
+  - page: index.md  # 👈 This tells Redocly to use your own homepage
   - group: Introduction
     items:
       - id: authentication
@@ -11,3 +12,4 @@ sidebar:
   - group: API Reference
     items:
       - api: openapi.yaml
+
