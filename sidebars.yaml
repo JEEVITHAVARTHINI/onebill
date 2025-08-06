@@ -2,14 +2,19 @@ sidebar:
   - group: OneBill Documentation
     items:
       - id: introduction
-        label: Introduction
+        title: Introduction
       - id: authentication
-        label: Authentication
+        title: Authentication
       - id: proxy-information
-        label: Proxy Information
+        title: Proxy Information
       - id: x-ob-tenant-identifier
-        label: X-OB-Tenant-Identifier
+        title: X-OB-Tenant-Identifier
 
   - group: Pricing
     items:
-      - api: openapi.yaml
+      - label: Pricing - Product
+        items:
+          - id: get-products
+            title: GET /products
+          - id: post-products
+            title: POST /products
