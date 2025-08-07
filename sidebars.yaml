@@ -12,7 +12,7 @@ sidebar:
 
   - group: Pricing
     items:
-      - group: Pricing - Product
+      - label: Pricing - Product
         items:
           - id: get-products
             title: GET /products
