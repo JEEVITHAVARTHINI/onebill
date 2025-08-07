@@ -29,5 +29,5 @@ ignore:
   - .github
 
 theme:
-  sidebarFile: ./sidebars.yaml
-
+  sidebar:
+    file: ./sidebars.yaml
