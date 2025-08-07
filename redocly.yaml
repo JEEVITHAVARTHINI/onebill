@@ -5,6 +5,8 @@ apis:
 extends:
   - minimal
 
+sidebarFile: ./sidebars.yaml
+
 rules:
   operation-tag-defined: error
   no-invalid-schema-examples: error
@@ -28,6 +30,4 @@ rules:
 ignore:
   - .github
 
-theme:
-  sidebar:
-    file: ./sidebars.yaml
+
